@@ -19,7 +19,7 @@ namespace ConsoleApplication2
             base.V2();
         }
 
-        protected virtual void V2()
+        public override void V2()
         {
             Console.WriteLine("D:V2");
             S7();

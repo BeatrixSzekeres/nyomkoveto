@@ -10,9 +10,8 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
-            C c = new C();
+            D d = new D();
 
-            c.S1();
 
             Console.ReadKey();
         }
